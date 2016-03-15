@@ -33,6 +33,17 @@ captures/
 
 
 
+
+
+
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
 AndroidHW1.iml
 app/app.iml
 .idea/
