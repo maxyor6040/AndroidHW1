@@ -15,5 +15,24 @@
         android:gravity="center"
         android:layout_height="wrap_content"
         android:text="@string/main_activity_header" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_please_select" />
+    <EditText
+        android:id="@+id/editText_num_of_sheep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:id="@+id/seekBar_num_of_sheep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_activity_checkBox"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
