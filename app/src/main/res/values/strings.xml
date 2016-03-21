@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HW1</string>
+    <string name="app_name">Ex1</string>
     <string name="main_activity_header">Sheep order form</string>
     <string name="main_activity_please_select">Please select num of sheeps</string>
     <string name="main_activity_checkBox">With food</string>

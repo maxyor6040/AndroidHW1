@@ -18,6 +18,7 @@
         android:textSize="20pt" />
 
     <LinearLayout
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -42,14 +43,18 @@
             />
 
         <CheckBox
+            android:id="@+id/with_food_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/main_activity_checkBox" />
 
         <Button
+            android:id="@+id/make_order_button"
+            android:enabled="false"
             android:text="@string/button_make_order"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:onClick="click_handler"/>
     </LinearLayout>
 
 </LinearLayout>
