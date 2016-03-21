@@ -3,4 +3,5 @@
     <string name="main_activity_header">Sheep order form</string>
     <string name="main_activity_please_select">Please select num of sheeps</string>
     <string name="main_activity_checkBox">With food</string>
+    <string name="button_make_order">Make order</string>
 </resources>
