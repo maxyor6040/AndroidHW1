@@ -32,12 +32,13 @@ public class MainActivity extends AppCompatActivity {
         textView.setText(String.valueOf(0));
         seekBar.setOnSeekBarChangeListener(
                 new SeekBar.OnSeekBarChangeListener() {
-                    int progress = 0;
-
                     @Override
                     public void onProgressChanged(SeekBar seekBar,
                                                   int progressValue, boolean fromUser) {
-                        progress = progressValue;
+                        if (!fromUser)
+                            return;
+                        textView.setText(String.valueOf(progressValue));
+                        button.setEnabled(checkBox.isChecked() && progressValue > 0);
                     }
 
                     @Override
@@ -47,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onStopTrackingTouch(SeekBar seekBar) {
-                        textView.setText(String.valueOf(progress));
-                        button.setEnabled(checkBox.isChecked() && progress > 0);
                     }
                 });
         textView.addTextChangedListener(new TextWatcher() {
@@ -93,6 +92,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click_handler(View view) {
-        Toast.makeText(getApplicationContext(),"Order sent", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Order sent", Toast.LENGTH_SHORT).show();
     }
 }
