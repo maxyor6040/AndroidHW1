@@ -1,5 +1,6 @@
 package com.hw1.hw1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
@@ -92,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click_handler(View view) {
-        Toast.makeText(getApplicationContext(), "Order sent", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, OrderSentActivity.class);
+        startActivity(intent);
     }
 }
