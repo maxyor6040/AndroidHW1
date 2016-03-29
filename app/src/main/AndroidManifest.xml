@@ -10,14 +10,15 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:windowSoftInputMode="stateUnspecified|adjustResize">
+            android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrderSentActivity"></activity>
+        <activity android:name=".OrderSentActivity"
+            android:label="@string/order_sent_activity_label"/>
     </application>
 
 </manifest>

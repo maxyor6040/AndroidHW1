@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Ex2</string>
     <string name="main_activity_header">Sheep order form</string>
-    <string name="main_activity_please_select">Please select num of sheeps</string>
+    <string name="main_activity_please_select">Please select num of sheep</string>
     <string name="main_activity_checkBox">With food</string>
     <string name="button_make_order">Make order</string>
     <string name="order_sent_message">Your order has been sent!</string>
+    <string name="order_sent_activity_label">OrderSent</string>
 </resources>
