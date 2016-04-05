@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="food_menu_images">
+        <item>@drawable/banana</item>
+        <item>@drawable/apple</item>
+        <item>@drawable/cherry</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/steak</item>
+    </array>
+</resources>

@@ -1,9 +1,19 @@
 <resources>
-    <string name="app_name">Ex2</string>
+    <string name="app_name">Ex3</string>
     <string name="main_activity_header">Sheep order form</string>
     <string name="main_activity_please_select">Please select num of sheep</string>
     <string name="main_activity_checkBox">With food</string>
     <string name="button_make_order">Make order</string>
     <string name="order_sent_message">Your order has been sent!</string>
     <string name="order_sent_activity_label">OrderSent</string>
+    <string name="food_description_string">food</string>
+    <string name="select_food_button_text">select</string>
+    <string name="select_food_title">Select Food</string>
+    <string-array name="food_menu_strings">
+        <item>banana</item>
+        <item>apple</item>
+        <item>cherry</item>
+        <item>orange</item>
+        <item>steak</item>
+    </string-array>
 </resources>

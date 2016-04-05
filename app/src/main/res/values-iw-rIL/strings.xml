@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">תרגיל 3</string>
+    <string name="main_activity_header">טופס הזמנת כבשים</string>
+    <string name="main_activity_please_select">אנא בחר מספר כבשים</string>
+    <string name="main_activity_checkBox">עם אוכל</string>
+    <string name="button_make_order">בצע הזמנה</string>
+    <string name="order_sent_message">הזמנתך נשלחה!</string>
+    <string name="order_sent_activity_label">הזמנה נשלחה</string>
+    <string name="food_description_string">אוכל</string>
+    <string name="select_food_button_text">בחר</string>
+    <string name="select_food_title">בחר אוכל</string>
+    <string-array name="food_menu_strings">
+        <item>בננה</item>
+        <item>תפוח</item>
+        <item>דובדבן</item>
+        <item>תפוז</item>
+        <item>סטייק</item>
+    </string-array>
+
+</resources>
